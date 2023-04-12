@@ -1,0 +1,43 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  padding-left: 2rem;
+  font-size: 40px;
+}
+
+.desc-container {
+  margin: 2rem;
+}
+
+.description {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.description > p {
+  flex: 1;
+  line-height: 2rem;
+}
+
+p > a {
+  color: black;
+  padding-top: 10px;
+  display: block;
+}
+
+.title {
+  text-align: center;
+}
+
+.exp {
+  border-left:2px solid black;
+  padding-left: 2rem;
+}
+
+img {
+  width: 200px;
+}
