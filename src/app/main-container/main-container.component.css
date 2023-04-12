@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 90px;
+  margin: 2rem 5rem 0 5rem;
+  text-align: center;
+}
+
+p > img {
+  width: 90px;
+  height: 90px;
+}
+
