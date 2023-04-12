@@ -1,0 +1,22 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  list-style: none;
+}
+
+li > a{
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  text-decoration: underline;
+  font-style: oblique;
+}
+
