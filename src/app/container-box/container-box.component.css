@@ -13,7 +13,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1;
+  max-width: 50dvw;
 }
 
 .description {
@@ -43,7 +43,6 @@ p > a {
 }
 
 .img-container {
-  flex: 1;
 }
 
 img {

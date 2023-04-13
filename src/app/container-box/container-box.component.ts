@@ -10,5 +10,6 @@ import { CommonModule } from '@angular/common';
 })
 export class ContainerBoxComponent {
   @Input() flexDirection?: boolean;
+  @Input() bgColor?: string;
 
 }
