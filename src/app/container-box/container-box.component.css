@@ -23,6 +23,7 @@ h2 {
 }
 
 .description > p {
+  font-size: 1.5rem;
   flex: 1;
   line-height: 2rem;
 }
@@ -40,9 +41,6 @@ p > a {
 .exp {
   border-left:2px solid black;
   padding-left: 2rem;
-}
-
-.img-container {
 }
 
 img {
