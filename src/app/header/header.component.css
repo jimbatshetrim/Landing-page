@@ -20,3 +20,17 @@ li > a{
   font-style: oblique;
 }
 
+header {
+  margin: 2rem;
+}
+
+div > span {
+  border-bottom: 2px solid black;
+  width: 4rem;
+  display: block;
+  margin-top: 1rem;
+}
+
+.burger {
+  margin: 1rem 2rem 0 0;
+}
