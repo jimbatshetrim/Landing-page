@@ -1,0 +1,76 @@
+section {
+  display: flex;
+  padding: 8rem 0;
+}
+
+section > div {
+  flex: 1;
+  padding: 1rem 4rem;
+}
+
+.left {
+  display: flex;
+}
+
+.left > div {
+  flex: 1;
+}
+
+img {
+  width: 200px;
+}
+
+.image {
+  display: flex;
+  align-items: flex-end;
+}
+
+.h-line {
+  height: 6rem;
+  display: block;
+  border-left: 2px solid black;
+}
+
+#title {
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+.date {
+  color: gray;
+}
+
+.comp {
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right > p {
+  font-size: 1.5rem;
+}
+
+.right > div {
+  display: flex;
+}
+
+.right-container > div {
+  flex: 1;
+}
+
+.number {
+  padding: 0 2rem;
+  color: gray;
+  border-bottom: 2px solid gray;
+}
+
+.number:first-child {
+  font-weight: bold;
+  color: black;
+  border-bottom: 4px solid black;
+}

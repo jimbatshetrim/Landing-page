@@ -1,1 +1,34 @@
-<p>company-work works!</p>
+<section>
+  <div class="left">
+    <div>
+      <p id="title">Our <br> Recent works</p>
+      <span class="h-line"></span>
+      <div>
+        <p class="date">28-12-2023</p>
+        <p>It was on assignment that we learned</p>
+        <p class="comp">HENDLEY & CO</p>
+      </div>
+    </div>
+    <div class="image">
+      <img src="assets/beer.svg"/>
+    </div>
+  </div>
+  <div class="right">
+    <p> We acknowledge that we work on indigenous lands and that sovereignty was never ceded. </p>
+    <div class="right-container">
+      <div>
+        <p class="date">05-06-2022</p>
+        <p>How do you market a film festival</p>
+        <p class="comp">TRIBECA FILM FESTIVAL</p>
+      </div>
+      <div>
+        <img src="assets/beer.svg"/>
+      </div>
+    </div>
+    <div>
+      <p class="number" *ngFor="let num of ['01', '02', '03', '04', '05', '06', '07', '08']">
+      {{num}}
+      </p>
+    </div>
+  </div>
+</section>
