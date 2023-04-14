@@ -1,12 +1,12 @@
 <section [ngStyle]="{'background-color': bgColor}" [ngClass]="flexDirection ? 'direction-change' : ''">
   <div class="desc-container">
-    <h2 class="font">SEE HOW WE CAN HELP YOU PROGRESS.</h2>
+    <h2 class="font">{{content.heading}}</h2>
     <div class="description">
-      <p class="title">WHAT WE DO</p>
-      <p class="exp">We add a layer of fearless insight and action that allows change-makers to accelerate their progress in areas such as brand, design, digital, comms and social research.
+      <p class="title">{{content.title}}</p>
+      <p class="exp">{{content.descriptions}}
       <a href="#">Read More</a>
       </p>
     </div>
   </div>
-  <div class="img-container"><img src="assets/beer.svg"/></div>
+  <div class="img-container"><img [src]="content.img"/></div>
 </section>

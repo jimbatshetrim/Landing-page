@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ContainerContent } from '../misc/app.constant';
 
 @Component({
   selector: 'app-container-box',
@@ -11,5 +12,5 @@ import { CommonModule } from '@angular/common';
 export class ContainerBoxComponent {
   @Input() flexDirection?: boolean;
   @Input() bgColor?: string;
-
+  @Input() content!: ContainerContent;
 }

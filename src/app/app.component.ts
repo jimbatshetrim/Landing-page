@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FIRST_DESCRIPTION, SECOND_DESCRIPTION } from './misc/app.constant';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'landingPage';
+  firstContent = FIRST_DESCRIPTION;
+  secondContent = SECOND_DESCRIPTION;
 }
