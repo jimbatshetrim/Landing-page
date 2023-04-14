@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ContainerBoxComponent } from './container-box/container-box.component';
+import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { MainContainerComponent } from './main-container/main-container.component';
 
@@ -14,6 +15,7 @@ import { MainContainerComponent } from './main-container/main-container.componen
     HeaderComponent,
     MainContainerComponent,
     ContainerBoxComponent,
+    FooterComponent,
     BrowserModule
   ],
   providers: [],
